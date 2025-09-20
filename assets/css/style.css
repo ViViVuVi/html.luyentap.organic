@@ -113,6 +113,28 @@ p {
   font-weight: 400;
 }
 
+.faq_bander{
+  border-bottom: block, 100px solid #36c93d;
+  display: flex;
+  width: 100%;
+}
+.faq_bander.chu{
+  justify-content: left;
+}
+#faq_bander{
+  justify-content: center;
+  align-items: center;
+  color: #017fff;
+}
+/*hienthicautraloi*/
+/* .question {
+      cursor: pointer;
+    }
+.answer {
+      display: none; /* ban đầu ẩn đi */
+
+
+
 .collapse_dropdown {
   top: 100%;
   right: -80px;
@@ -9396,7 +9418,6 @@ input[type=text]:focus {
     padding: 7px 10px;
   }
 
-  .banner_sub_title h6 {
     font-size: 14px;
   }
 

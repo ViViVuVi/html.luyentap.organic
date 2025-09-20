@@ -80,6 +80,17 @@
   });
   // multiple countdown-1 - end =================
   
+
+  //hien thi cau tra loi trong FAQ
+    // function toggleAnswer(element) {
+    //   let answer = element.nextElementSibling; // tìm phần tử kế tiếp (câu trả lời)
+    //   if (answer.style.display === "block") {
+    //     answer.style.display = "none";
+    //   } else {
+    //     answer.style.display = "block";
+    //   }
+    // }
+
   // multiple countdown-2 - start ===============
   $('.countdown_timer3[data-countdown]').each(function() {
     var $this = $(this), finalDate = $(this).data('countdown');
